@@ -25,3 +25,5 @@ app.post('/todos', (req, res) => {
 app.listen(3007, () => {
     console.log('Server up');
 });
+
+module.exports = {app};
